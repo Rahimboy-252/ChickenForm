@@ -37,6 +37,14 @@ nav {
     font-weight: bold;
 }
 
+.navspan2 button:hover {
+    background-color: #e40008;
+}
+
+.navspan2 button {
+    transition: .55s ease;
+}
+
 .navspan p span {
     color: #9E090F;
     font-weight: bold;
@@ -161,7 +169,7 @@ ul li a span {
 .card {
     width: 222px;
     height: 265px;
-    box-shadow: 0 4.35px 43.53px 0 #000000;
+    box-shadow: 0 4.35px 43.53px 0 rgba(0, 0, 0, 0.3);
     border-radius: 22px;
     position: relative;
     display: flex;
@@ -227,35 +235,44 @@ ul li a span {
     gap: 90px;
 }
 
-.card1 div button{
+.card1 div button {
     margin-bottom: 0;
     opacity: 0.9;
     background-color: #9E090F;
     transition: .55s ease;
 }
 
-.card2 div button{
+.card2 div button {
     margin-bottom: 0;
     opacity: 0.9;
     background-color: white;
     transition: .55s ease;
 }
 
-.card div button{
+.card div button {
     margin-left: 20px;
 }
 
-.card div h4{
+.card div h4 {
     margin-top: 0;
 }
 
-.card1 div button:hover{
+.card1 div button:hover {
     opacity: 1;
     cursor: pointer;
     background-color: #e40008;
 }
-.card2 div button:hover{
+
+.card2 div button:hover {
     opacity: 1;
     cursor: pointer;
     background-color: #9b9b9b;
+}
+
+.card {
+    transition: .55s ease;
+}
+
+.card:hover {
+    transform: translateY(-30px);
 }
