@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    background-image: url(img/Union.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 27px 105px;
+    padding-left: 100px;
+    padding-right: 0;
+    max-width: 1440px;
+    max-height: 1024px;
+    height: 1024px;
+}
+
+nav {
+    width: 1254px;
+    height: 51px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navspan p {
+    font-family: "Mulish", sans-serif;
+    font-weight: bold;
+}
+
+.navspan p span {
+    color: #9E090F;
+    font-weight: bold;
+}
+
+.navspan img {
+    margin-left: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    gap: 110px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-family: Mulish;
+    font-weight: bold;
+    color: #171717;
+}
+
+ul li a span {
+    color: #9E090F;
+}
+
+.navspan2 button {
+    width: 124px;
+    height: 43px;
+    background-color: #9E090F;
+    border-radius: 25px;
+    border: none;
+    font-family: Mulish;
+    color: white;
+    font-weight: bold;
+}
+
+.navspan2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+.main h1 {
+    font-family: outfit;
+    font-size: 78px;
+}
+
+.main h1 span {
+    color: #9E090F;
+}
+
+.btnspans {
+    display: flex;
+    gap: 13px;
+}
+
+.main {
+    display: flex;
+    padding-top: 72px;
+}
+
+.main h4 {
+    font-size: 18px;
+    color: #5A5A5A;
+    font-family: Outfit;
+    margin-top: 45px;
+}
+
+.leftbtn1 {
+    padding: 12px 54px;
+    background: #9E090F;
+    color: white;
+    opacity: 0.9;
+    transition: .55s ease;
+}
+
+.mainbtn {
+    border: none;
+    font-family: outfit;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 77px;
+    margin-top: 34px;
+}
+
+.leftbtn2 {
+    padding: 12px 46px;
+    opacity: 0.9;
+    transition: .55s ease;
+}
+
+.leftbtn1:hover {
+    opacity: 1;
+    cursor: pointer;
+    background-color: #e40008;
+}
+
+.leftbtn2:hover {
+    opacity: 1;
+    cursor: pointer;
+    background-color: antiquewhite;
+    background-color: #9b9b9b;
+}
+
+.right img {
+    margin-right: -40px;
+    margin-top: -50px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    padding-top: 118px;
+    gap: 27px;
+}
+
+.card {
+    width: 222px;
+    height: 265px;
+    box-shadow: 0 4.35px 43.53px 0 #000000;
+    border-radius: 22px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+    font-family: outfit;
+    text-align: center;
+    /* padding: 50px 25px 0 17px; */
+    padding-top: 100px;
+}
+
+.card span {
+    color: #7D7D7D;
+    display: flex;
+    font-size: 13px;
+    gap: 40px;
+    margin-top: 18.5px;
+}
+
+.card img {
+    /* box-shadow: 0 4.35px 27.64px 0 black; */
+    border-radius: 50%;
+}
+
+.card1 h4 {
+    color: #171717;
+}
+
+.card2 h4 {
+    color: white;
+}
+
+.card1 {
+    color: black;
+}
+
+.card2 {
+    background-color: #9E090F;
+    color: white;
+}
+
+.card img {
+    position: absolute;
+    top: -80px;
+}
+
+.card div button {
+    width: 26px;
+    height: 26px;
+    border-radius: 4px;
+    border: none;
+    display: inline-block;
+}
+
+.card div {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10px;
+    gap: 90px;
+}
+
+.card1 div button{
+    margin-bottom: 0;
+    opacity: 0.9;
+    background-color: #9E090F;
+    transition: .55s ease;
+}
+
+.card2 div button{
+    margin-bottom: 0;
+    opacity: 0.9;
+    background-color: white;
+    transition: .55s ease;
+}
+
+.card div button{
+    margin-left: 20px;
+}
+
+.card div h4{
+    margin-top: 0;
+}
+
+.card1 div button:hover{
+    opacity: 1;
+    cursor: pointer;
+    background-color: #e40008;
+}
+.card2 div button:hover{
+    opacity: 1;
+    cursor: pointer;
+    background-color: #9b9b9b;
+}
